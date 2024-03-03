@@ -10,11 +10,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 10,
     width: width,
-    height: height * 0.1,
+    height: width * 0.06,
     backgroundColor: '#000',
   },
   navbarLogo: {
-    height: height * 0.035,
+    height: width * 0.025,
     marginLeft: width * 0.05,
   },
 });

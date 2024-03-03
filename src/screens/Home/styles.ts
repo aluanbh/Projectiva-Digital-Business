@@ -13,13 +13,14 @@ const styles = StyleSheet.create({
   },
   header: {
     width: width,
-    height: height * 0.55,
+    height: width * 0.45,
+    resizeMode: 'cover',
   },
   subBar: {
     width: width,
-    height: height * 0.09,
+    height: width * 0.06,
     backgroundColor: '#3F3167',
-    marginTop: -height * 0.08,
+    marginTop: -width * 0.08,
   },
   body: {
     marginTop: height * 0.1,

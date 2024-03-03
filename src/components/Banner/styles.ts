@@ -18,6 +18,19 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 
+  banner_text_main: {
+    color: 'white',
+    fontSize: width * 0.025,
+    alignItems: 'center',
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+
+  banner_box_subtitle: {
+    width: width * 0.25,
+    marginTop: 10,
+  },
+
 
   banner_text_subtitle: {
     color: 'white',
@@ -54,6 +67,11 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'column',
   },
+
+  AgileTrendsLogo: {
+
+
+  }
 
 
 });

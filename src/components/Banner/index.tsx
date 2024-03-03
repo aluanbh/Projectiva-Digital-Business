@@ -11,11 +11,11 @@ const Banner = () => {
     <View style={styles.bannerContent}>
       <View style={styles.banner}>
         <View >
-          <View >
-            <Text style={{ color: 'white', fontSize: 32, textAlign: 'center', fontWeight: 'bold' }}>
+          <View style={{ display: 'flex', alignItems: 'center' }}>
+            <Text style={styles.banner_text_main}>
               Transforme sua Empresa{'\n'} com <Text style={{ color: '#64bcff' }}>Business Agility.</Text>
             </Text>
-            <View style={{ width: 500, marginTop: 10, paddingHorizontal: 20 }}>
+            <View style={styles.banner_box_subtitle}>
               <Text style={styles.banner_text_subtitle}>
                 Prepare sua empresa para responder rapidamente às Mudanças do Mercado, torne-se ágil e adaptável e eleve a sua empresa ao próximo nível!
               </Text>
