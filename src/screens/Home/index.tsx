@@ -27,7 +27,7 @@ export default function Home() {
   const handleCardPress = (code: string, idSubject: number) => {
     setSubject(idSubject);
     const uuid = generateUUID();
-    const endpoint = `https://projectivadt.com.br/#/registrar/${uuid}|${code}`;
+    const endpoint = `https://projectivadt.com.br/#/participar/${uuid}|${code}`;
 
     setEndpoint(endpoint);
     setIsModalVisible(true);
