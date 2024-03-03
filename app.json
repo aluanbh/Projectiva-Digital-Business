@@ -3,7 +3,6 @@
     "name": "projectiva-digital-business",
     "slug": "projectiva-digital-business",
     "version": "1.0.0",
-    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",

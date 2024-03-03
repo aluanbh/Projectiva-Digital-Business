@@ -11,7 +11,7 @@ const Banner = () => {
     <View style={styles.bannerContent}>
       <View style={styles.banner}>
         <View >
-          <View style={{ width: '100%' }}>
+          <View >
             <Text style={{ color: 'white', fontSize: 32, textAlign: 'center', fontWeight: 'bold' }}>
               Transforme sua Empresa{'\n'} com <Text style={{ color: '#64bcff' }}>Business Agility.</Text>
             </Text>
@@ -24,11 +24,11 @@ const Banner = () => {
         </View>
         <View style={styles.banner_dian_image_box}>
           <View style={styles.slide_agile_dian_image}>
-            <Image source={Dian} style={{}} />
+            <Image source={Dian} style={styles.image} />
           </View>
         </View>
-        <View style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <View>
+        <View style={styles.banner_promo}>
+          <View style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', }}>
             <View style={styles.banner_dian_info_img}>
               <Image source={AgileTrendsLogo} style={{}} />
               <Text style={{ color: 'black', fontSize: 12, textAlign: 'center', marginTop: 2, fontWeight: '700' }}>

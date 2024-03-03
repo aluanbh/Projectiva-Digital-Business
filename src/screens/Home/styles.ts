@@ -5,11 +5,11 @@ const { width, height } = Dimensions.get('window');
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    width: width,
+    display: 'flex',
+    width: '100%'
   },
   content: {
-    flex: 1,
+    width: width,
   },
   header: {
     width: width,
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     width: width,
     height: height * 0.09,
     backgroundColor: '#3F3167',
-    marginTop: -height * 0.01,
+    marginTop: -height * 0.08,
   },
   body: {
     marginTop: height * 0.1,
