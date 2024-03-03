@@ -9,9 +9,10 @@ import About from '@/components/About';
 import Footer from '@/components/Footer';
 import Presentation from '@/components/Presentation';
 
-import Banner from '@/assets/img/banner.png';
+// import Banner from '@/assets/img/banner.png';
 
 import styles from './styles';
+import Banner from '@/components/Banner';
 
 export default function Home() {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -41,7 +42,8 @@ export default function Home() {
     <SafeAreaView style={styles.container}>
       <Navbar />
       <ScrollView style={styles.content}>
-        <Image source={Banner} style={styles.header} />
+        <Banner />
+        {/* <Image source={Banner} style={styles.header} /> */}
 
         <View style={styles.subBar} />
 
